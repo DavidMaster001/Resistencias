@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resistencia de materiales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .group-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .member {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .member img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .image-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-wrapper img {
+            max-width: 50%;
+            height: auto;
+            margin: 0.1px;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Grupo</h1>
+        <img src="Logo-Universidad-ECCI.jpg" alt="Logo del grupo" width="100">
+    </header>
+
+    <h2>Integrantes del grupo:</h2>
+    <div class="group-members">
+        <div class="member">
+            <h3>JONATHAN DAVID PINTO BUCURU</h3>
+            <p>Correo: jonathand.pintob@ecci.edu.co</p>
+            <p>Número de teléfono: 3105723426</p>
+            <p>codigo: 94093</p>
+        </div>
+        <div class="member">
+            <h3>LAURA NATALIA RODRIGUEZ CARO</h3>
+            <p>Correo: lauran.rodriguezc@ecci.edu.co</p>
+            <p>codigo: 93499</p>
+        </div>
+        <div class="member">
+            <h3>JENNIFER XIOMARA LOPEZ PEÑA</h3>
+            <p>Correo: jenniferx.lopezp@ecci.edu.co</p>
+            <p>codigo: 94165</p>
+        </div>
+        <div class="member">
+            <h3>DANIEL FELIPE QUIROGA PADILLA</h3>
+            <p>Correo: danielf.quirogap@ecci.edu.co</p>
+            <p>codigo: 84500</p>
+        </div>
+        <div class="member">
+            <h3>Manuel Alejandro Imbol Galeano</h3>
+            <p>Correo: Manuela.imbolg@ecci.edu.co</p>
+            <p>codigo: 84915</p>
+        </div>
+        <!-- Repite este bloque para cada integrante -->
+        <main>
+            <h2>¿Qué son las resistencias de estructuras metálicas?</h2>
+            <p>Las resistencias de estructuras metálicas son una serie de propiedades y características que determinan
+                la capacidad de una estructura de acero para soportar las cargas y fuerzas a las que está expuesta.
+                Estas resistencias son fundamentales para garantizar la seguridad y estabilidad de las construcciones
+                metálicas.</p>
+
+            <h2>Tipos de resistencias</h2>
+            <p>Existen diferentes tipos de resistencias que se consideran al diseñar una estructura metálica:</p>
+            <ul>
+                <li><strong>Resistencia a la tracción:</strong> Es la capacidad del acero para resistir fuerzas de
+                    tracción, es decir, fuerzas que tienden a estirar el material.</li>
+                <li><strong>Resistencia a la compresión:</strong> Es la capacidad del acero para resistir fuerzas de
+                    compresión, es decir, fuerzas que tienden a aplastar el material.</li>
+                <li><strong>Resistencia al corte:</strong> Es la capacidad del acero para resistir fuerzas de corte, que
+                    actúan en planos perpendiculares al eje longitudinal de la estructura.</li>
+                <li><strong>Resistencia a la flexión:</strong> Es la capacidad del acero para resistir fuerzas que
+                    producen flexión en la estructura, como las cargas aplicadas en los extremos de una viga, por
+                    ejemplo.</li>
+                <li><strong>Resistencia a la torsión:</strong> Es la capacidad del acero para resistir fuerzas que
+                    producen torsión, es decir, el giro o torsión de la estructura alrededor de su eje longitudinal.
+                </li>
+            </ul>
+
+            <h2>Importancia de las resistencias en el diseño estructural</h2>
+            <p>El conocimiento de las resistencias de las estructuras metálicas es esencial para los ingenieros y
+                diseñadores estructurales. Estas resistencias son utilizadas para calcular y dimensionar los elementos
+                de la estructura, asegurando que sean capaces de soportar las cargas previstas, cumpliendo con los
+                requisitos de seguridad y durabilidad.</p>
+            <img src="WhatsApp Image 2023-05-28 at 8.33.09 AM.jpeg" alt="estructura deformada" width="800" height="400">
+            <h2> medidadas de la estructura</h2>
+            <div class="image-grid">
+                <img src="WhatsApp Image 2023-05-28 at 8.33.11 AM.jpeg" alt="Imagen 1">
+                <img src="medidas.jpeg" alt="Imagen 2">
+                <!-- Agrega más imágenes aquí -->
+            </div>
+            <p>Con las medidas de la estructura procedemos a realizar una simulación por el programa inventor esto con el fin de mirar, los factores de falla de la pieza.</p>
+            <h2>Video real</h2>
+            <p>En el video se observa como se realiza la prueba de deformacion de una estructura metalica, realizada por
+                los estudiantes del curso de resistencia de materiales; esta prueba se realizo en una prensa mecanica,
+                la cual ejerce una fuerza de comprension de uidades de medida Psi, sobre la estructura metalica, ademas
+                de esto se observa que con una fuerza al rededor de 50 Psi se deforma la estructura</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IvxATEv-8cU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <h2>Calculos</h2>
+            <div class="container">
+                <div class="image-wrapper">
+                    <img src="WhatsApp Image 2023-05-31 at 8.02.05 PM.jpeg" alt="Imagen 1" width="800" height="400"
+                        style="transform:rotate(-90deg)">
+                    <img src="WhatsApp Image 2023-05-31 at 8.02.04 PM.jpeg" alt="Imagen 2" width="400" height="400"
+                        ;><br>
+                </div>
+            </div>
+            <h2>simulación</h2>
+            <img src="estructura.png" alt="Descripción de la imagen">
+            <p>En esta imagen observamos el diseño principal de la estructura, utilizando un hierro gris.</p>
+            <h2>simulación con carga</h2>
+            <video src="Autodesk Inventor Professional 2023 2023-05-31 21-09-21.mp4" loop autoplay controls>
+                <p>En el video podemos observar como se deforma la estructura aplicado fuerza continua en la parte
+                    superior de la estructura</p>
+                <p>En esta imagen observamos el diseño principal de la estructura, utilizando un hierro gris.</p>
+            </video>
+            <h2>Referencias</h2>
+            <p>Manual del Eurocódigo 3: Diseño de estructuras de acero. Comité Europeo de Normalización (CEN).
+                Disponible en: https://www.cenor.pt/pt/catalogo/norma/4461/
+                Design of Steel Structures - Eurocode 3: Design of Steel Structures - Part 1-1: General Rules and Rules
+                for Buildings. European Committee for Standardization (CEN).</p>
+
+        </main>
+    </div>
+</body>
+
+</html>
